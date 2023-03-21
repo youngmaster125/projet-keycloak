@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card">
+    <div class="card-header">La list des produit</div>
+    <div class="card-body">
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of product">
+                    <td>{{p.id}}</td>
+                    <td>{{p.name}}</td>
+                    <td>{{p.name}}</td>
+                 </tr>
+            </tbody>
+          </table>
+          
+    </div>
+    </div>
+    </div>
